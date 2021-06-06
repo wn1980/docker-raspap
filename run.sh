@@ -4,7 +4,7 @@
 
 docker rm -f raspap
 
-docker run --name raspap -it \
+docker run --name raspap -it -d \
     --privileged \
     --network=host \
     -v /sys/fs/cgroup:/sys/fs/cgroup:ro \
