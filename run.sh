@@ -9,7 +9,6 @@ docker run --name raspap -it -d \
     --network=host \
     -v /sys/fs/cgroup:/sys/fs/cgroup:ro \
     --cap-add SYS_ADMIN \
-    -p 8333:80 \
     wn1980/raspap
 
 #docker exec -it raspap bash
