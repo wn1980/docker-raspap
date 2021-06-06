@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#docker build -t wn1980/raspap
+#docker build -t wn1980/raspap .
 
 docker run --name raspap -it -d \
     --privileged \
