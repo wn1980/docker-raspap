@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+set -e
 
 #docker build -t wn1980/raspap .
 
@@ -15,4 +17,3 @@ docker run --name raspap -it -d \
 #$ ./setup.sh
 #docker restart raspap
 #access WEB-UI at http://localhost
-
